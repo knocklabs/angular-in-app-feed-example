@@ -1,0 +1,17 @@
+<div *ngFor="let notification of notifications" class="flex flex-col justify-start items-start p-2 w-full">
+  <mat-card class="w-full">
+    <mat-card-content>
+      <div class="flex flex-row justify-start items-center p-2 w-full">
+        <div class="flex flex-col justify-start items-start p-2 w-full">
+          <h3>
+            {{notification.action}}
+          </h3>
+          <div class="w-full italic">{{notification.timeStamp}}</div>
+        </div>
+
+        <div *ngIf="!notification.readAt" class="blue-circle"></div>
+
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
