@@ -1,6 +1,9 @@
-# KnockAngularInAppFeed
+# Angular in-app feed example
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+This is an example Angular application showing the [Knock](https://knock.app) in-app feed within an Angular application. You
+can use this as a starting point to power your own Angular in-app feed applications built on top of Knock.
+
+This example uses the [`@knocklabs/client` JS SDK](https://docs.knock.app/in-app-ui/javascript/overview).
 
 ## Development server
 
